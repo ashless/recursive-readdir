@@ -3,14 +3,16 @@
   "name": "@ashlesss/recursive-readdir",
   "description": "Get an array of all files in a directory and subdirectories.",
   "license": "MIT",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "repository": {
     "type": "git",
     "url": "git@github.com:ashlesss/recursive-readdir.git"
   },
   "main": "./index.js",
+  "types": "index.d.ts",
   "files": [
-    "index.js"
+    "index.js",
+    "index.d.ts"
   ],
   "scripts": {
     "test": "mocha test/"
