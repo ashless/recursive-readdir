@@ -1,4 +1,4 @@
-import * as fs from "fs";
+import * as fs from "fs-extra";
 
 declare namespace RecursiveReaddir {
   type IgnoreFunction = (file: string, stats: fs.Stats) => boolean;

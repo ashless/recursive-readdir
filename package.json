@@ -25,6 +25,7 @@
     "node": ">=6.0.0"
   },
   "dependencies": {
+    "@types/fs-extra": "^11.0.4",
     "fs-extra": "^11.3.2",
     "minimatch": "^10.1.1"
   },
